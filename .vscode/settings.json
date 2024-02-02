@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\juanb\\Downloads\\aspose-cells-23.9.jar"
+    ]
+}
