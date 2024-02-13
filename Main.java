@@ -6,9 +6,10 @@ import com.aspose.cells.WorksheetCollection;
 
 public class Main{
   static Scanner scan = new Scanner(System.in);
+  static Visitante visitante = new Visitante(null, null, 0, null);
+  static Estudiante estudiante = new Estudiante();
   public static void main(String[] args) throws Exception {
     Workbook wb = new Workbook("workbook1.xlsx");
-    
       WorksheetCollection collection = wb.getWorksheets();
       List<Estudiante> lista = new ArrayList<>();
       List<Visitante> lista2 = new ArrayList<>();
